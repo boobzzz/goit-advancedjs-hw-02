@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promise generator</title>
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/styles-CGPQmwKv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/2-generator.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/styles-rixCNsXf.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/styles-B3APL2h3.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-CZjNVMTf.css">
   </head>
   <body>
     <header class="header">
@@ -36,6 +43,29 @@
         </h1>
         <a class="back-link" href="./index.html">Go back</a>
 
+
+        <section class="generator-section">
+          <form class="form">
+            <label>
+              Delay (ms)
+              <input type="number" name="delay" class="delay-input" required />
+            </label>
+
+            <fieldset>
+              <legend>State</legend>
+              <label>
+                <input type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+              </label>
+              <label>
+                <input type="radio" name="state" value="rejected" required />
+                Rejected
+              </label>
+            </fieldset>
+
+            <button type="submit">Create notification</button>
+          </form>
+        </section>
       </div>
     </main>
 
@@ -54,6 +84,7 @@
     </p>
   </div>
 </footer>
+
 
   </body>
 </html>
