@@ -1,3 +1,62 @@
 .timer-section {
-  padding: 50px 0;
+  margin-top: 68px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.timer-input {
+  width: 272px;
+  height: 40px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 0 16px;
+  color: #2E2F42;
+}
+.timer-input:hover {
+  border-color: #000000;
+}
+.timer-input:active {
+  border-color: #4E75FF;
+  color: #000000;
+}
+.timer-input:disabled {
+  border-color: #808080;
+  color: #808080;
+}
+
+.timer-btn {
+  width: 75px;
+  height: 40px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  color: #ffffff;
+}
+.timer-btn:hover {
+  border-color: #6C8CFF;
+}
+.timer-btn:disabled {
+  border-color: #CFCFCF;
+  background-color: #CFCFCF;
+  color: #989898;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+}
+.field span:first-child {
+  font-size: 40px;
+  line-height: 1.2;
 }
